@@ -1,0 +1,66 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==========================
+# Virtual Environment
+# ==========================
+venv/
+.venv/
+env/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# IDE Settings
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Build Files
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Machine Learning Models
+# (Ignore generated models)
+# ==========================
+models/
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# ==========================
+# Dataset
+# (Do NOT upload Kaggle dataset)
+# ==========================
+dataset/
+data/
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
