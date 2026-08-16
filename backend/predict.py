@@ -1,6 +1,5 @@
 import joblib
-from config import MODEL_PATH
-
+from backend.config import MODEL_PATH
 # Load the trained XGBoost model
 model = joblib.load(MODEL_PATH)
 

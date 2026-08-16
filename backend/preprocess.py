@@ -1,8 +1,6 @@
 import pandas as pd
 import joblib
-from config import FEATURE_NAMES_PATH
-
-# Load feature names once
+from backend.config import FEATURE_NAMES_PATH# Load feature names once
 feature_names = joblib.load(FEATURE_NAMES_PATH)
 
 
